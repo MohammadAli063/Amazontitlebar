@@ -1,0 +1,70 @@
+div{
+    height: 40px;
+    width: 1330px;
+    color: white;
+    background-color: black;
+    border: white 4px solid;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+    margin: 20px;
+
+}
+#p1{
+    color: rgb(230, 171, 32);
+}
+
+body{
+    background-color:wheat;
+}
+p{
+    color: white;
+}
+#s1{
+    color: rgb(230, 171, 32);
+    
+}
+span{
+    display: inline-block;
+    margin: 0px 60px 0px 60px;
+    font-family: cursive;
+}
+form{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+}
+button{
+    color: black;
+    font-family: cursive;
+    background-color: rgb(230, 171, 32) ;
+}
+a{
+    text-decoration: none;
+    color:  rgb(230, 171, 32);
+
+}
+
+/* sharadha didi's solution
+
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}  */*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+
+button{
+    background-color:rgb(230, 171, 32) ;
+}
+
+#logo{
+    color: rgb(230, 171, 32);   
+}

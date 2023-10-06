@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 100px;
+    display: flex;
+}
+.logo{
+    background-image:url("Project images/Amazon-Logo-Black-Crop3.png") ;
+    background-size: cover;
+    height: 40px;
+    width: 100px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.address{
+    margin: 5px 2px 5px 2px;
+    padding: 9px 9px;
+   
+}
+
+.deliver{
+    margin-left: 16px;
+    height:14px;
+    font-size: 11px;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.country{
+    display: inline-block;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    
+}
+
+
+.search-bar{
+    display: flex;
+    background-color: rgb(240, 179, 22);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    
+
+}
+
+.select{
+    background-color: #f3f3f3; 
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+
+.search-input{
+    width: 100%;
+    border: none;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    /* background-color: #febd68; */
+    color: #0F1111;
+}
+
+.line1{
+    font-size: 0.75rem;
+}
+
+.line2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.search-bar:hover{
+    border: 3px solid goldenrod;
+}
+
+.cart i{
+    font-size: 24px;
+    color: rgb(240, 179, 22);
+}
+
+/*panel*/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-all{
+   width: 70px;
+   margin-left: 15px;
+   justify-content: center;
+}
+.panel-options p{
+    display: inline-block;
+    margin: 5px;
+}
+
+.panel-options{
+    width:100%;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.panel-deals{
+    width: 200px;
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.hero-section{
+    background-image: url("/Project images/backpic.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    color: black;
+    background-color: white;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.hero-message a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/*shop*/
+
+.shop{
+    background-color: #dde1e4;
+    display: flex;
+    justify-content: space-evenly;
+    height: 780px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 22.5%;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    height: 350px;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.product-image{
+    height: 225px;
+    background-color: pink;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#HomeNeeds{
+    background-image: url("/Project images/HomeNeeds.jpg");
+    background-size: cover;
+}
+/* https://th.bing.com/th/id/OIP.R6B-rcBUyJs9wg-s1B8dIgHaFj?w=248&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7 */
+#Toys{
+    background-image: url("/Project images/Toys.jpg");
+    background-size: cover;
+}
+#HealthAndAccessories{
+    background-image: url("/Project images/Health.jpg");
+    background-size: cover;
+}
+#Electronics{
+    background-image: url("/Project images/Electronics.jpeg");
+    background-size: cover;
+}
+#Smartphones{
+    background-image: url("/Project images/Smartphones.jpg");
+    background-size: cover;
+}
+#Stationary{
+    background-image: url("/Project images/Stationary.jpg");
+    background-size: cover;
+}
+#Fashion{
+    background-image: url("/Project images/Fashion.jpg");
+    background-size: cover;
+}
+#DryFruits{
+    background-image: url("/Project images/DryFruits.jpg");
+    background-size: cover;
+}
+
+
+.more-items{
+    color: #007185;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size:  0.8rem;
+}
+
+/*footer*/
+
+.foot-panel1{
+    color: white;
+    background-color: #37475a;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    height: 100px;
+    color: white;
+    padding-top: 20px;
+    border-top: 0.3px solid rgb(210,204,204,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-amzn-logo{
+    height: 50px;
+    width: 100px;
+    background-color: #222f3d;
+    background-image: url("Project images/Amazon-Logo-Black-Crop3.png");
+    background-size: cover;
+    
+   
+}

@@ -1,0 +1,31 @@
+#div1{
+    background-color: aqua;
+    color: blue;
+    height: 100px;
+    width: 100px;
+    
+}
+body{
+    background-color: black;
+}
+
+@media(width:600px){                        
+   body{ background-color: red;}              
+}
+/*to make our website responsive to screen size variation*/
+
+
+/* @media(min-width:600px){                       
+    div{ background-color: pink;} 
+} */
+ /*to modify div qualities acc to screen size*/
+ /*here if screen size is 600px and above the color of the div will be pink*/ 
+
+
+ @media(min-width:200px) and (max-width:300px){
+    #div1{
+        background-color: green;
+    }
+ }
+ /*to set screen size range*/
+

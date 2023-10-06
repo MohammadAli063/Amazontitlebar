@@ -1,0 +1,91 @@
+#box1{
+    height: 100px;
+    width: 205px;
+    color:brown;                  
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+/*font size can be made relative to existing font by using 'em' and 'rem'. rem takes relative to 16px bcoz 16px is the default size of the random text in the body written without any tag*/
+/*'vh' viewport height and 'vw' viewport width is used to set font size relative to browser window hieght and width */
+/*all this relative sizes are written in percentage*/
+#box2{
+    height: 50px;
+    width: 185px;
+    background-color: green;
+    
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 10px;
+     
+}
+
+button{
+    background-color: rgb(56, 159, 200);
+    color: white;
+    font-family: cursive;
+    border:2px solid white ;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+#like{
+    background-color: rgb(226, 109, 129);
+}
+#subscribe{
+    background-color: black;
+}
+
+#box3{
+    background-color: rgba(255,0,0,1);
+    position: relative;      
+    top: 200px;
+    left: 50px;
+    z-index: -1;
+}/*position set relative to former position of the box 3 */
+/*positioning doesn't work if we are using 'position:static'*/
+
+#box4{
+    background-color: rgba(0,255,0,1); 
+    position: sticky;
+    top: 10px;
+    z-index: 1;  
+    background-image: url("cat.jpg"); 
+    background-size: cover; /*other options= contain,auto*/
+}
+/*box will stick to 10px from top even if the user scrolls down. but will stick only after the top of browser arrive 10px from top due to scrolling*/
+/*z-index signifify which box or element will be on upper side when they are overlapping
+e.g. element with z-index:-1 will be overlapped by element with z-index:0, which will again be overlapped by element with z-index:1 and so on...
+default z-index is 0. p tag is in 0 z-index*/
+
+#box5{
+    background-color: rgba(0,0,255,0.8);
+    position:fixed;
+    bottom: 0px;
+    margin: 0px;
+}/*box will always be fixed at at a position(here bottom 0px) even if you scroll. margin will be followed acc to previously done unless specified (as is done here)*/
+
+#box6{
+    background-color:yellow;
+    position: absolute;
+    top: 50px; 
+}/*box is positioned according to the closest positioned(non-static) parent tag (here it is body tag. so the box 6 is positined acc to the browser page) */
+
+.BOX{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+
+}
+
+body{
+    background-image: url("hp2.jpg");/*source unsplash.com*/
+    background-size: cover;
+}

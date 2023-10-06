@@ -1,0 +1,80 @@
+/*flex boxes have mutually perpendicular main and cross axes*/
+
+h1{
+    text-align: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    border-radius:5px ;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px ;
+}
+
+#container{
+    text-align: center;
+    border: 2px black solid;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+    left: 290px;
+    display: flex;              
+    flex-direction: row;
+    justify-content: center;   /*align along main line acc to centre of individual boxes*/
+    flex-wrap: wrap;           /*break content into multiple line acc to the space available*/
+    align-items:center ;       /*align along cross line acc to centre of individual boxes*/
+    /* (align-content: center;)    groups all content in the center of the div */
+    
+}
+/*the inside boxes will be arranged acc to the flex-direction specified i.e. row,row-reverse, column, column-reverse . the boxes will remain inside the flexbox no matter if their size exceeds the flexbox until their text-size allow to do so */
+/*justify-content is used to align or distribute spaces the elements inside the flexbox along the main line (without changing the order of arrangement)*/
+
+#box1{
+    background-color: blueviolet;
+}
+#box2{
+    background-color: blue;
+    height: 250px;
+}
+#box3{
+    background-color:violet;
+    height: 50px;
+}
+#box4{
+    background-color: skyblue;
+}
+#box5{
+    background-color: yellow;
+    align-self: flex-end;                 /*alignment applivaple only to a particilar element*/
+}
+
+
+
+#container2{
+    display: flex;
+    background-color: blueviolet;
+    border: 2px black solid;
+    position: absolute;
+    top: 1500px;
+    height: 200px;
+    width: 200px;
+   justify-content: center;
+   align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+#boxi{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
